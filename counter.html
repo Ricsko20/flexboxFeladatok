@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">My counter</div>
+    <div>
+        <p id="counterValue">Counter value:<br>
+            <span id="value">100</span>
+        </p>    
+    </div>
+
+    <div class="firstRow">
+        <div class="btn"><p id="pl">+</p></div>
+        <div class="btn"><p id="min">-</p></div>
+    </div>
+
+    <div class="secondRow">
+        <div class="btn"><p id="pl">+</p></div>
+        <div class="btn"><p id="min">-</p></div>
+    </div>
+
+
+</body>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .title {
+        background-color: rgb(211, 188, 253);
+        height: 30px;
+        font-size: 1.5em;
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+
+    .firstRow, .secondRow {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    #counterValue {
+        text-align: center;
+    }
+
+    #value {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #pl, #min {
+        font-size: 2.5em;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        background: rgb(235, 221, 255);
+        border: 0px solid white;
+        border-radius: 30px;
+        box-shadow: 1px 3px rgb(214, 210, 210);
+    }
+
+    .firstRow {
+        display: flex;
+    }
+</style>
+</html>
