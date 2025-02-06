@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmusok</title>
+</head>
+<body>
+    <h1>Algoritmusok</h1>
+
+    <div class="infos">
+        <div class="informations">
+            <img class="imgs" src="icons8-info-80.png" alt="">
+            <p id="info"> Információ</p>
+        </div>
+        <p class="szoveg">Az alábbi feladatokban különböző algoritmusokat kell elkészíteni. Minden algoritmushoz tartozik egy kiinduló Python kód, amely tartalmaz <span id="unitest">unitest</span> teszteket is.</p>
+    </div>
+
+    <div class="warnings">
+        <div class="texts">
+            <img class="imgs" src="icons8-warning-48.png" alt="">
+            <p id="time">Idő -és memóriakorlátozások</p>
+        </div>
+        <p class="szoveg">A feladatok megoldásánál figyelj a megadott idő-és memóriakorlátozásokra!</p>
+        <ul>
+            <li>Időlimit: 1.00 sec</li>
+            <li>Memória limit: 512 MB</li>
+        </ul>
+    </div>
+</body>
+<style>
+    li {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        opacity: 0.5;
+        margin-bottom: 50px;
+    }
+
+    #info {
+        padding-left: 7px;
+        font-weight: bold;
+    }
+
+    .szoveg {
+        padding-left: 10px;
+    }
+
+    .informations {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #ecf8fa;
+        padding-left: 10px;
+    }
+
+    .infos {
+        border: 2px solid lightblue;
+        border-radius: 5px;
+        box-shadow: 2px 2px rgb(160, 197, 209);
+        margin-bottom: 30px;
+    }
+
+    .info {
+        font-weight: bold;
+    }
+
+    .imgs {
+        width: 25px;
+        height: 25px;
+    }
+
+    #time {
+        font-weight: bold;
+        padding-left: 7px;
+    }
+
+    .warnings {
+        border: 2px solid orange;
+        border-radius: 5px;
+        box-shadow: 2px 2px rgb(247, 221, 175)
+    }
+
+    .texts {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(254, 244, 233);
+        padding-left: 10px;
+    }
+</style>
+</html>
