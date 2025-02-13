@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XDDDDDD</title>
+</head>
+<body>
+    <div class="titleText">
+        <h1>Monster slayer</h1>
+    </div>
+
+    <div class="playerAndMonster">
+        <h2>Monster Health</h2>
+        <p class="hp">100</p>
+        <div class="healthBar"></div>
+    </div>
+
+    <div class="playerAndMonster">
+        <h2>Your Health</h2>
+        <p class="hp">100</p>
+        <div class="healthBar"></div>
+    </div>
+
+    <div class="row">
+        <div class="btn"><p>ATTACK</p></div>
+        <div class="btn"><p>SPECIAL ATTACK</p></div>
+    </div>
+
+    <div class="row" id="secondRow">
+        <div class="btn"><p>HEAL</p></div>
+        <div class="btn"><p>SURRENDER</p></div>
+    </div>
+
+    <div class="battleLog">
+        <h2>Battle Log</h2>
+    </div>
+</body>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        margin: 0;
+        color: white;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .hp {
+        text-align: center;
+    }
+
+    #secondRow {
+        margin-bottom: 20px;
+    }
+
+    .titleText {
+        height: 70px;
+        padding-top: 20px;
+        background-color: rgb(130, 16, 28);
+        margin-bottom: 40px;
+    }
+
+    .playerAndMonster {
+        padding-top: 5px;
+        margin: 0 auto;
+        width: 600px;
+        height: 180px;
+        box-shadow: 2px 2px 5px 5px rgb(214, 214, 214);
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .healthBar {
+        width: 95%;
+        height: 50px;
+        background-color: rgb(50, 166, 119);
+        margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(131, 15, 91);
+        width: 200px;
+        height: 60px;
+        margin: 15px;
+        border-radius: 12px;
+        color: white;
+    }
+
+    .battleLog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 600px;
+        height: 80px;
+        box-shadow: 2px 2px 5px 5px rgb(214, 214, 214);
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+</style>
+
+</html>
